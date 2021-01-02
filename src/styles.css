@@ -1,0 +1,47 @@
+.App {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+.Time {
+  font-family: "Orbitron", sans-serif;
+  background-color: #ffcccc;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 200px;
+  height: 70px;
+
+  animation: blinkingText 1.2s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    color: #000;
+  }
+  49% {
+    color: #000;
+  }
+  60% {
+    color: transparent;
+  }
+  100% {
+    color: #000;
+  }
+}
+body {
+  box-sizing: border-box;
+  background-color: #b4f2e1;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Josefin Sans", sans-serif;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+h1 {
+  background-color: #ffe9c5;
+  padding: 20px 20px;
+  height: 70px;
+}
